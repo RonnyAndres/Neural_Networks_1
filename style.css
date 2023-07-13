@@ -9,13 +9,21 @@
 }
 
 .container {
-  height: 50vh;
+  height:50vh;
   width: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
   background-color: #3f57ff;
 }
+.container1 {
+    height:50vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #d79c44;
+  }
 
 .card {
   border-radius: 10px;
@@ -26,14 +34,28 @@
   padding: 10px 30px 40px;
 }
 
+.card1 {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 550px;
+    height: 260px;
+    background-color: #ffffff;
+    padding: 10px 30px 40px;
+  }
+
 .card h3 {
   font-size: 22px;
   font-weight: 600;
   
 }
-
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 .drop_box {
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -42,6 +64,16 @@
   border: 3px dotted #a3a3a3;
   border-radius: 5px;
 }
+.drop_box1 {
+    margin: 11px 150px;
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px dotted #a3a3a3;
+    border-radius: 5px;
+  }
 
 .drop_box h4 {
   font-size: 16px;
